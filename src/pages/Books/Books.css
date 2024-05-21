@@ -1,0 +1,13 @@
+.book__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 35px;
+    flex-wrap: wrap;
+    background-image: url(../../assets/ornament.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    li{
+        margin-top: 10px;
+    }
+}

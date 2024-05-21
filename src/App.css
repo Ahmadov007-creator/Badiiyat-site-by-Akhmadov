@@ -1,0 +1,38 @@
+:root{
+    --mainDark: #191919;
+    --lightOrange: #C9AC8C;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rotterburg Stylish FREE', arial;
+    font-style: 24px;
+    line-height: 1.5;
+    background-color: var(--mainDark);
+}
+
+a {
+    text-decoration: none;
+}
+
+li,
+ol,
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.container{
+    max-width: 1300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.df{
+    display: flex;
+}

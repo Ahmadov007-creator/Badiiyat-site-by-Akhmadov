@@ -1,0 +1,28 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 54px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__item {
+    margin-left: 24px;
+    font-size: 22px;
+
+    a {
+        color: white;
+    }
+
+    .active {
+        color: var(--lightOrange);
+    }
+
+}
